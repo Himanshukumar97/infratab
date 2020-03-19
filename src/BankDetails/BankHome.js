@@ -282,7 +282,7 @@ class BankHome extends Component {
 
                     <div className={cx("mt-5", styles.scroll)}>
                         {this.state.displayBank.length > 0 ? this.state.displayBank.map((resource, index) => {
-                            let url = "/bank/"+index+"/" + resource.ifsc;
+                            let url = "/infratab/bank/"+index+"/" + resource.ifsc;
                             return (
                                 <NavLink to={url}>
                                     <div className={cx("pl-3", styles.clientCardAlign)} key={index}>
