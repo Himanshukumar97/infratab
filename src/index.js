@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import {createStore,applyMiddleware} from 'redux' ;
+import reducer from './BankDetails/Store/reducer' ;
+import thunk from 'redux-thunk'
 
+const store = createStore(reducer,applyMiddleware(thunk)) ;
 ReactDOM.render(
   <Provider store={store}>
     <App />

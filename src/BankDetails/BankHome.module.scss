@@ -1,0 +1,77 @@
+.clientCardAlign{
+    cursor: pointer;
+}
+
+.ResourceCard{
+    border-radius: 5px;
+    background-color: #cfcacad5;
+    &:hover{
+        box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0,0,0,0.11);
+    }
+    float: left;
+    width: 700px;
+    // margin : 5px;
+    border:1px solid black;
+    height:80px;
+    margin: 10px;
+    overflow:auto;
+}
+.main{
+
+ }
+
+.cardTextSmall{
+    font-size: 10px;
+    color: #262D33;
+}
+.cardTextMedium{
+    text-decoration: bold;
+    font-size: 13px;
+    color: #262D33;
+}
+
+.scroll{
+    // max-height: 85vh;
+    // overflow: auto;
+    // width: 100px;
+}
+
+.ModalPage{
+    width: 70%;
+    margin: 5% 10% 25% 15% ;
+}
+
+.ModalForm{
+    max-height: 46rem;
+    overflow-y: scroll;
+    padding: 20px
+}
+.add{
+    padding: 8px 18px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0059B2; 
+    border-radius: 25px;
+    margin-left: 920px;
+    &:hover{
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #1A69B9;
+    }
+}
+
+.alignButton{
+    float: right;
+    text-align: end;
+    padding-bottom: 2rem;
+    padding-right: 20px;
+}
+
+.ArrowDisable{
+    filter: grayscale(0%);
+    //  margin-bottom: 15px;
+    background: none;
+    border: 0;
+   
+}
+
