@@ -15,8 +15,8 @@ function App() {
 
         <BrowserRouter>
           <Switch>
-            <Route path={`/`} exact component={BankDetails} />
-            <Route path={`/bank/:index/:bankID`} exact component={innerBankDetails} />
+            <Route path={`/infratab`} exact component={BankDetails} />
+            <Route path={`/infratab/bank/:index/:bankID`} exact component={innerBankDetails} />
 
           </Switch>
         </BrowserRouter>
